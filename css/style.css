@@ -39,6 +39,9 @@ body {
   overflow-x: hidden;
   background-color: var(--bg-black-50);
 }
+html{
+  scroll-behavior: smooth;
+}
 *:not(i) {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -853,13 +856,14 @@ lord-icon{
   margin: 15px 0 10px;
   text-transform: capitalize;
 }
-.contact-section .contact-item-inner p{
+.contact-section .contact-item-inner .cl, p{
   font-size: 16px;
   color: var(--text-black-600);
   line-height: 26px;
   margin: 0;
   word-break: break-word;
 }
+
 .contact-section .contact-form{
   flex: 0 0 100%;
   max-width: 100%;
