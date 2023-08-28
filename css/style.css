@@ -58,7 +58,7 @@ html{
   box-sizing: border-box;
 }
 a {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 ul {
   list-style: none;
