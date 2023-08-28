@@ -1,6 +1,7 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@400;500;600;700&display=swap");
 
+
 /******************** CUSTOM CSS VARIABLES  ********************/
 :root {
   --bg-black-900: #000000;
@@ -122,7 +123,7 @@ img {
   border: none;
 }
 .btn-1::after{
-   border-radius: 30px;
+  border-radius: 30px;
 }
 .effect-wrap .effect{
   position: absolute;
@@ -264,9 +265,9 @@ input::-webkit-inner-spin-button {
   font-weight: 600;
   color: var(--skin-color);
 }
-.section.hide{
+/* .section.hide{
   display: none;
-}
+} */
 .card {
 	width: 100%;
 	height: 100%;
@@ -345,8 +346,11 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 .header .hamburger-btn {
+  position: fixed;
   height: 40px;
   width: 40px;
+  right: 17px;
+  top: 20px;
   display: flex;
   border-radius: 50%;
   transition: all 0.3s ease;
@@ -431,11 +435,13 @@ input::-webkit-inner-spin-button {
   line-height: 35px;
   border-radius: 50%;
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: 15px;
   cursor: pointer;
   text-align: center;
+  padding-top: 2px;
   color: var(--text-black-600);
+  transition: all 0.3s ease-out;
 }
 .nav-menu .close-nav-menu::after{
   border-radius: 50%;
